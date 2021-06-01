@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cats Survey</title>
+
+  <!-- Google Fonts  -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&family=Zilla+Slab&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <!-- CSS Stylesheet  -->
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+  <div class="main-background">
+
+    <section class="title">
+      <h1 id="title"> Cat Survey</h1>
+      <div class="gif-container">
+        <iframe src="https://giphy.com/embed/3o7budeSc2lRUq8Du0" frameBorder="0" class="giphy-embed gif" allowFullScreen></iframe>
+        <p><a href="https://giphy.com/gifs/imoji-cat-3o7budeSc2lRUq8Du0">via GIPHY</a></p>
+      </div>
+      <div class="description-container">
+        <p id="description"> This Survey will help other people understand our love for cats, and with this we help in the ancient secret mission of cats of conquering the world.</p>
+      </div>
+    </section>
+
+    <section class="Form">
+      <div class="form-group form">
+        <form id="survey-form" action="index.html" method="post">
+          <label for="name" id="name-label">Your name:</label>
+          <input type="text" id="name" class="form-control type" name="name" value="" required placeholder="Britney Spears">
+          <br><br>
+
+          <label for="email" id="email-label">E-mail:</label>
+          <input type="email" class="form-control type" id="email" name="email" value="" required placeholder="bspears@email.com">
+          <br><br>
+
+          <label for="number" id="number-label"> How many cats live with you?</label>
+          <input type="number" id="number" name="" value="" min="0" max="10" placeholder="8">
+          <br><br>
+
+<div class="dropdown">
+          <label for="dropdown">What do you love the <span>most</span> about cats?</label>
+          <br>
+              <select name="dropdown" id="dropdown">
+                <option value="Cute">They are just SO cute</option>
+                <option value="play">They play a lot</option>
+                <option value="kisses">They give me cute little kisses</option>
+                <option value="get">I think they get me</option>
+                <option value="fluffy">They are so fluffy and soft I could die!</option>
+              </select>
+          </div>
+          <br><br>
+
+          <p>Please select which cat gender you prefer:</p>
+          <input type="radio" id="male" name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" id="female" name="gender" value="female">
+          <label for="female">Female</label><br>
+          <input type="radio" id="other" name="gender" value="other">
+          <label for="other">other</label>
+          <br><br>
+
+          <p>Please select which cat personality you like (check all that apply).</p>
+          <input type="checkbox" id="grumpy" name="grumpy" value="Grumpy">
+          <label for="grumpy"> Grumpy</label><br>
+          <input type="checkbox" id="adventurous" name="adventurous" value="adventurous">
+          <label for="adventurous"> Adventurous</label><br>
+          <input type="checkbox" id="territorial" name="territorial" value="territorial">
+          <label for="territorial"> Territorial</label><br>
+          <input type="checkbox" id="loyal" name="loyal" value="loyal">
+          <label for="loyal"> Loyal</label><br>
+          <input type="checkbox" id="playful" name="playful" value="playful">
+          <label for="playful"> Playful</label><br>
+          <input type="checkbox" id="affectionate" name="affectionate" value="affectionate">
+          <label for="affectionate"> Affectionate</label>
+          <br> <br>
+
+          <label for="share">Share what you love about cats!</label>
+          <br>
+
+          <div class="form-floating">
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+            <label for="floatingTextarea2">Comments</label>
+          </div>
+          <br>
+
+          <button type="submit" id="submit" class="btn btn-info button">Submit</button>
+
+        </form>
+      </div>
+    </section>
+
+    <section class="thank-you">
+      <p>Thank you for completing the survey! Miau!</p>
+      <img src="https://img-premium.flaticon.com/png/512/3659/premium/3659348.png?token=exp=1622557577~hmac=87a177a2c58bfb3f0536e04789998490" alt="cat-paw image" class="paw">
+    </section>
+
+    <section class="footer">
+      <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+      <p class="VR">© 2021 Valentina Reyes</p>
+    </section>
+
+  </div>
+</body>
+<!-- Free Code Camp Challenge script
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+-->
+
+</html>
